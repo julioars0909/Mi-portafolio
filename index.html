@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <header class="header ">
+    <nav class="navbar grid--container">
+      <a class="navbar--logo" href=""><i class='bx bxs-user-circle'></i>Julio Aristy</a>
+
+      <div class="navbar--menu">
+        <i class='bx bx-x navbar--icon btn--close'></i>
+        <ul class="navbar--list">
+          <li class="navbar--item"><a class="navbar--link" href="#home">Inicio</a></li>
+          <li class="navbar--item"><a class="navbar--link" href="#about">Acerca de mi</a></li>
+          <li class="navbar--item"><a class="navbar--link" href="#projects">Portafolio</a></li>
+          <li class="navbar--item"><a class="navbar--link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+
+      <i class='bx bx-menu navbar--icon btn--open'></i>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="home">
+
+      <div class="home--container grid--container">
+        <div class="home--img">
+          <span></span>
+          <img class="profile" src="/assets/img/Profile.png" alt="">
+        </div>
+
+
+
+        <div class="home--info">
+          <h1 class="home--title"><span class="saludo">Que tal?</span> <br> Soy Julio Aristy </h1>
+          <p class="home--description">Soy un desarrollador web, apasionado por la tecnologia y la programacion.</p>
+        </div>
+        <ul class="home--social">
+          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
+
+          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
+
+          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
+        </ul>
+
+
+        <div class="home--buttons">
+
+          <button class="btn btn--primary btn--efect" type="button">
+            <span class="btn--color"> Descarga mi CV</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h2 class="section--title">Acerca de Mi</h2>
+      <div class="about--container gri--container">
+        <p class="about--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt labore deleniti
+          rerum. Ad est ratione perspiciatis perferendis similique atque placeat porro nulla, minus adipisci quam
+          repudiandae non maxime corrupti dolore.
+        </p>
+
+        <div class="about--skills grid--container">
+          <div class="about--cards">
+            <!--card1-->
+            <div class="about--card">
+              <i class='bx bxl-html5'></i>
+              <h3 class=" about--card-title">HTML5</h3>
+              <p class="about--description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--card2-->
+            <div class="about--card">
+              <i class='bx bxl-css3'></i>
+              <h3 class=" about--card-title">CSS3</h3>
+              <p class="about--description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--card3-->
+            <div class="about--card">
+              <i class='bx bxl-javascript'></i>
+              <h3 class=" about--card-title">JavaScript</h3>
+              <p class="about--description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="about--tags">
+            <h3 class="about--tags--title">Habilidades</h3>
+            <div class="about--tags-container">
+
+              <span class="about--tag">Responsable</span>
+
+              <span class="about--tag">Trabajo en equipo</span>
+
+              <span class="about--tag">Creativo</span>
+
+              <span class="about--tag">Puntual</span>
+
+              <span class="about--tag">Proactivo</span>
+
+              <span class="about--tag">Autodidacta</span>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2 class="section--title">Proyectos</h2>
+
+      <div class="projects--container grid--container">
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/project1.jpg" alt="Proyecto1">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">Proyecto 1</h3>
+              <p class="projects--description about--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="projects--buttons">
+                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
+                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/project2.png" alt="Proyecto2">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">Proyecto 2</h3>
+              <p class="projects--description about--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="projects--buttons">
+                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
+                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/project3.jpg" alt="Proyecto3">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">Proyecto 3</h3>
+              <p class="projects--description about--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="projects--buttons">
+                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
+                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/project4.png" alt="Proyecto4">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">Proyecto 4</h3>
+              <p class="projects--description about--description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div class="projects--buttons">
+                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
+                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2 class="section--title">Contacto</h2>
+      <div class="contact--container grid--container">
+        <div class="contact--info">
+          <h3 class="contact--info-title">Informacion de Contacto</h3>
+          <p class="contact--info-description about--description">Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit.</p>
+          <address class="contact--info-data">
+            <div class="contact--info-item">
+              <i class='bx bx-phone contact--icon'></i>
+              <span class="contact--info-hover">
+                +18494572574
+              </span>
+            </div>
+
+            <div class="contact--info-item">
+              <i class='bx bxs-envelope contact--icon'></i>
+              <span class="contact--info-hover">
+                <a class="contact--info-hover" href="mailto:aristyjulio0909@gmail.com">
+                  Enviame un correo
+                </a>
+              </span>
+            </div>
+
+            <div class="contact--info-item">
+              <i class='bx bx-map contact--icon'></i>
+              <span class="contact--info-hover">
+                Republica Dominicana, Provincia Peravia
+              </span>
+            </div>
+          </address>
+        </div>
+
+
+        <div class="contact--form">
+          <h3 class="contact--form-title">Enviar mensaje</h3>
+          <form id="form" class="contact--form-container">
+
+            <div class="contact--form-group">
+              <label for="name" class="contact--form-label">Nombre:</label>
+              <input type="text" id="name " class="contact--form-input">
+            </div>
+
+            <div class="contact--form-group">
+              <label for="email" class="contact--form-label">Correro:</label>
+              <input type="email" id="email " class="contact--form-input">
+            </div>
+
+            <div class="contact--form-group">
+              <label for="message" class="contact--form-label">Mensaje:</label>
+              <textarea class="text-area contact--form-input " id="message" cols="30" rows="10"
+                contact--form-input></textarea>
+            </div>
+            <button type="submit" class="btn contact--form-button">Enviar</button>
+
+          </form>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer--container grid--container">
+      <div class="footer--info">
+        <h3 class="footer--title">Julio Aristy</h3>
+        <p class="footer--description">desarrollador web, apasionado por la tecnologia y la programacion.</p>
+      </div>
+      <div class="footer--social grid--container">
+        <h3 class="footer--title">Mis Redes</h3>
+
+        <ul class="footer--social-list">
+
+          <li class="footer--social-item">
+            <a class="footer--social-link" href=""><i class='bx bxl-facebook'></i></a>
+          </li>
+
+          <li class="footer--social-item">
+            <a class="footer--social-link" href=""><i class='bx bxl-instagram'></i></a>
+          </li>
+
+          <li class="footer--social-item">
+            <a class="footer--social-link" href=""><i class='bx bxl-linkedin'></i></a>
+          </li>
+
+          <!-- <li class="footer--social-item">
+          <a class="footer--social-link" href=""><i class='bx bxl-facebook'></i></a>
+        </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer--copy">
+      &copy;Hecho en Academlo♥
+    </p>
+
+  </footer>
+  <script>
+    const btnMenu = document.querySelector('.btn--open')
+    const btnClose = document.querySelector('.btn--close')
+    const Menu = document.querySelector('.navbar--menu')
+
+    btnMenu.onclick = function () {
+      Menu.classList.add('show--menu')
+    }
+    btnClose.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
+  </script>
+
+</body>
+
+</html>
