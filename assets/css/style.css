@@ -405,6 +405,12 @@ img {
   text-align: center;
 }
 
+.about--card:nth-child(4) .bx {
+  color: #61dbfb;
+  padding: 12px;
+  font-size: 2rem;
+  text-align: center;
+}
 
 
 .about--tags--title {
