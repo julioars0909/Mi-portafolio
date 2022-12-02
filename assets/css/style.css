@@ -481,6 +481,11 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.section--title {
+  padding-bottom: 32px;
+}
+
+
 .contact--info-title {
   color: #eee;
   text-align: center;
@@ -518,10 +523,12 @@ img {
   width: 100%;
   padding: 3rem 1.5rem 2rem;
   background-color: #2a2b3d;
-  border-radius: 5px;
+  border-radius: 12px;
   box-shadow: var(--box-shadow);
   margin: 0 auto;
 }
+
+
 
 .contact--form-group {
   margin-bottom: var(--mr-4);
@@ -540,7 +547,18 @@ img {
   font-weight: var(--font-semi-bold);
   background-color: #eee;
   border: 2px solid #34b0be;
-  border-radius: 5px;
+  border-radius: 12px;
+}
+
+.btn--submit {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+
+#trucazo {
+  opacity: 0;
 }
 
 .text-area {
