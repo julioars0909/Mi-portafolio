@@ -18,13 +18,15 @@
 <body>
   <header class="header ">
     <nav class="navbar grid--container">
-      <a class="navbar--logo" href=""><i class='bx bxs-user-circle'></i>Julio Aristy</a>
+      <div class="logo--container"><img src="/assets/img/Logo de Aristy[1].png" alt=""></div>
 
       <div class="navbar--menu">
+
         <i class='bx bx-x navbar--icon btn--close'></i>
+
         <ul class="navbar--list">
           <li class="navbar--item"><a class="navbar--link" href="#home">Inicio</a></li>
-          <li class="navbar--item"><a class="navbar--link" href="#about">Acerca de mi</a></li>
+          <li class="navbar--item"><a class="navbar--link" href="#about">Acerca de mí</a></li>
           <li class="navbar--item"><a class="navbar--link" href="#projects">Portafolio</a></li>
           <li class="navbar--item"><a class="navbar--link" href="#contact">Contacto</a></li>
         </ul>
@@ -47,15 +49,18 @@
 
 
         <div class="home--info">
-          <h1 class="home--title"><span class="saludo">Que tal?</span> <br> Soy Julio Aristy </h1>
-          <p class="home--description">Soy un desarrollador web, apasionado por la tecnologia y la programacion.</p>
+          <h1 class="home--title"><span class="saludo">Qué tal?</span> <br> Soy Julio Aristy </h1>
+          <p class="home--description">Soy un desarrollador web, apasionado por la tecnología y la programación.</p>
         </div>
         <ul class="home--social">
-          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home--social-item"><a class="home--social-link" target="_blank"
+              href="https://www.linkedin.com/in/julio-aristy-540268174"><i class='bx bxl-linkedin'></i></a></li>
 
-          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
+          <li class="home--social-item"><a target="_blank" class="home--social-link"
+              href="https://instagram.com/juliograam?igshid=N2ZiY2E3YmU="><i class='bx bxl-instagram'></i></a></li>
 
-          <li class="home--social-item"><a class="home--social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
+          <li class="home--social-item"><a target="_blank" class="home--social-link"
+              href="https://www.facebook.com/julio.alcantara.737448"><i class='bx bxl-facebook'></i></a></li>
         </ul>
 
 
@@ -69,13 +74,12 @@
     </section>
 
     <section id="about" class="about section">
-      <h2 class="section--title">Acerca de Mi</h2>
+      <h2 class="section--title">Acerca de mí</h2>
       <div class="about--container gri--container">
-        <p class="about--description">Soy un desarrollador web <strong>front end</strong> capacitado para cumplir con
-          las demandas que me
-          pueda llegar a exijir el usuario, por otra parte, la programacion es una de las cosas que mas me apasionan ya
-          que esta crea un mundo lleno de posibilidades las cuales cada dia llenan de curiosidad ver como estas
-          se pueden llegar alograr con ayuda de nuestro codigo.
+        <p class="about--description">Soy un desarrollador web <strong>Front end </strong> capacitado para cumplir con
+          las demandas que me pueda llegar a exigir el usuario, por otra parte, la programación es una de las cosas que
+          más me apasionan, ya que esta crea un mundo lleno de posibilidades las cuales cada día llenan de curiosidad
+          ver como estas se pueden llegar a lograr con ayuda de nuestro código.
         </p>
 
         <div class="about--skills grid--container">
@@ -104,7 +108,7 @@
             <!-- card4 -->
             <div class="about--card">
               <i class='bx bxl-react'></i>
-              <h3 class=" about--card-title">React</h3>
+              <h3 class=" about--card-title">React.js</h3>
               <p class="about--description">Libreria de JavaScript el cual nos permite crear interfaces de usuario.</p>
             </div>
 
@@ -135,84 +139,101 @@
       </div>
     </section>
 
+    <!-- Seccion de proyectos -->
+
     <section id="projects" class="projects section">
+
       <h2 class="section--title">Proyectos</h2>
 
       <div class="projects--container grid--container">
+
+        <!-- Proyecto1 -->
         <div class="projects--project">
           <div class="projects--inner  grid--container">
             <div class="projects--image">
-              <img src="/assets/img/project1.jpg" alt="Proyecto1">
+              <img src="/assets/img/Web-app-de-rick-and-morty.jpg" alt="Proyecto3">
             </div>
 
             <div class="projects--info">
-              <h3 class="projects--name section--title">Proyecto 1</h3>
+              <h3 class="projects--name section--title">Web app de Rick and morty</h3>
               <p class="projects--description about--description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Hecho con React.js y Axios
               </p>
               <div class="projects--buttons">
-                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
-                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
+                <a target="_blank" href="https://entregable3-gen20-g2-julioars.netlify.app"><button
+                    class="btn btn--primary btn--efect"><span>VER DEMO</span> </button></a>
+                <a target="_blank" href="https://github.com/julioars0909/App-de-Rick-and-morty.git"> <button
+                    type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto2 -->
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/E-commerce.png" alt="Proyecto2">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">E-commerce</h3>
+              <p class="projects--description about--description">
+                Hecho con HTML, CSS y JavaScript
+              </p>
+              <div class="projects--buttons">
+                <a target="_blank" href="https://gaming-components-julio.netlify.app"><button
+                    class="btn btn--primary btn--efect"><span>VER DEMO</span> </button></a>
+                <a target="_blank" href="https://github.com/julioars0909/E-comerce.git"> <button type="button"
+                    class="btn btn--primary btn--efect"><span>VER codigo</span> </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto3 -->
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/CRUD.png" alt="Proyecto4">
+            </div>
+
+            <div class="projects--info">
+              <h3 class="projects--name section--title">CRUD de Formularios</h3>
+              <p class="projects--description about--description">
+                Hecho con React.js y Axios.
+              </p>
+              <div class="projects--buttons">
+                <a target="_blank" href="https://entregable4-gen20-g2-julioars.netlify.app"><button
+                    class="btn btn--primary btn--efect"><span>VER DEMO</span> </button></a>
+                <a target="_blank" href="https://github.com/julioars0909/CRUD-de-formulario.git"><button type="button"
+                    class="btn btn--primary btn--efect"><span>VER codigo</span> </button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto4 -->
+        <div class="projects--project">
+          <div class="projects--inner  grid--container">
+            <div class="projects--image">
+              <img src="/assets/img/Captura de pantalla (8).jpg" alt="Proyecto1">
+            </div>
+            <div class="projects--info">
+              <h3 class="projects--name section--title">Web app del clima</h3>
+              <p class="projects--description about--description">
+                Hecho con React.js y Axios.
+              </p>
+              <div class="projects--buttons">
+                <a target="_blank" href="https://entregable2-gen20-2-julioars.netlify.app"> <button
+                    class="btn btn--primary btn--efect"><span>VER DEMO</span> </button></a>
+                <a target="_blank" href="https://github.com/julioars0909/Aplicacion-del-clima.git"><button type="button"
+                    class="btn btn--primary btn--efect"><span>VER codigo</span> </button></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="projects--project">
-          <div class="projects--inner  grid--container">
-            <div class="projects--image">
-              <img src="/assets/img/project2.png" alt="Proyecto2">
-            </div>
 
-            <div class="projects--info">
-              <h3 class="projects--name section--title">Proyecto 2</h3>
-              <p class="projects--description about--description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="projects--buttons">
-                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
-                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="projects--project">
-          <div class="projects--inner  grid--container">
-            <div class="projects--image">
-              <img src="/assets/img/project3.jpg" alt="Proyecto3">
-            </div>
-
-            <div class="projects--info">
-              <h3 class="projects--name section--title">Proyecto 3</h3>
-              <p class="projects--description about--description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="projects--buttons">
-                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
-                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="projects--project">
-          <div class="projects--inner  grid--container">
-            <div class="projects--image">
-              <img src="/assets/img/project4.png" alt="Proyecto4">
-            </div>
-
-            <div class="projects--info">
-              <h3 class="projects--name section--title">Proyecto 4</h3>
-              <p class="projects--description about--description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="projects--buttons">
-                <button class="btn btn--primary btn--efect"><span>VER DEMO</span> </button>
-                <button type="button" class="btn btn--primary btn--efect"><span>VER codigo</span> </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+
     </section>
 
     <section id="contact" class="contact section">
@@ -220,13 +241,13 @@
       <div class="contact--container grid--container">
         <div class="contact--info">
           <h3 class="contact--info-title">Informacion de Contacto</h3>
-          <p class="contact--info-description about--description">Puedes contactarme atraves de los siguientes medios.
+          <p class="contact--info-description about--description">Puedes contactarme a través de los siguientes medios.
           </p>
           <address class="contact--info-data">
             <div class="contact--info-item">
               <i class='bx bx-phone contact--icon'></i>
               <span class="contact--info-hover">
-                +18494572574
+                <a class="contact--info-hover" href="tel:+18494572574">+18494572574</a>
               </span>
             </div>
 
@@ -234,7 +255,7 @@
               <i class='bx bxs-envelope contact--icon'></i>
               <span class="contact--info-hover">
                 <a class="contact--info-hover" href="mailto:aristyjulio0909@gmail.com">
-                  Enviame un correo
+                  Envíame un correo
                 </a>
               </span>
             </div>
@@ -255,18 +276,18 @@
 
             <div class="contact--form-group">
               <label for="name" class="contact--form-label">Nombre:</label>
-              <input name="name" type="text" id="name " class="contact--form-input">
+              <input placeholder="nombre" name="name" type="text" id="name " class="contact--form-input">
             </div>
 
             <div class="contact--form-group">
               <label for="email" class="contact--form-label">Correro:</label>
-              <input name="email" type="email" id="email " class="contact--form-input">
+              <input placeholder="ejemplo@ej.com" name="email" type="email" id="email " class="contact--form-input">
             </div>
 
             <div class="contact--form-group">
               <label for="message" class="contact--form-label">Mensaje:</label>
-              <textarea name="textarea" class="text-area contact--form-input " id="textarea" cols="30" rows="10"
-                contact--form-input></textarea>
+              <textarea placeholder="mensaje" name="textarea" class="text-area contact--form-input " id="textarea"
+                cols="30" rows="10" contact--form-input></textarea>
             </div>
             <button type="submit" class="btn btn--submit btn--efect btn--primary"><span class="span--btn">Enviar</span>
             </button>
@@ -284,7 +305,7 @@
     <div class="footer--container grid--container">
       <div class="footer--info">
         <h3 class="footer--title">Julio Aristy</h3>
-        <p class="footer--description">desarrollador web, apasionado por la tecnologia y la programacion.</p>
+        <p class="footer--description"> Desarrollador web, apasionado por la tecnología y la programación.</p>
       </div>
       <div class="footer--social grid--container">
         <h3 class="footer--title">Mis Redes</h3>
@@ -292,15 +313,18 @@
         <ul class="footer--social-list">
 
           <li class="footer--social-item">
-            <a class="footer--social-link" href=""><i class='bx bxl-facebook'></i></a>
+            <a target="_blank" class="footer--social-link" href="https://www.facebook.com/julio.alcantara.737448"><i
+                class='bx bxl-facebook'></i></a>
           </li>
 
           <li class="footer--social-item">
-            <a class="footer--social-link" href=""><i class='bx bxl-instagram'></i></a>
+            <a target="_blank" class="footer--social-link"
+              href="https://instagram.com/juliograam?igshid=N2ZiY2E3YmU="><i class='bx bxl-instagram'></i></a>
           </li>
 
           <li class="footer--social-item">
-            <a class="footer--social-link" href=""><i class='bx bxl-linkedin'></i></a>
+            <a class="footer--social-link" target="_blank" href="https://www.linkedin.com/in/julio-aristy-540268174"><i
+                class='bx bxl-linkedin'></i></a>
           </li>
 
           <!-- <li class="footer--social-item">
@@ -319,6 +343,11 @@
     const btnMenu = document.querySelector('.btn--open')
     const btnClose = document.querySelector('.btn--close')
     const Menu = document.querySelector('.navbar--menu')
+    const navbarLink = document.querySelector('.navbar--list')
+
+    navbarLink.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
 
     btnMenu.onclick = function () {
       Menu.classList.add('show--menu')

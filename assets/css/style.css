@@ -164,6 +164,11 @@ img {
 
 /*============== header & Navbar============== */
 
+.logo--container {
+  width: 130px;
+}
+
+
 .header {
   position: fixed;
   top: 0;
@@ -178,6 +183,7 @@ img {
 .profile {
   border-radius: 50%;
   background-color: #2a2b3d;
+  margin-top: 2rem;
 }
 
 .navbar {
@@ -193,6 +199,7 @@ img {
 
 
 @media (max-width: 768px) {
+
   .navbar--menu {
     position: fixed;
     top: -100%;
@@ -207,6 +214,7 @@ img {
     -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(15px);
     background-color: #03051ca8;
+
   }
 
 }
@@ -218,13 +226,16 @@ img {
 
 .navbar--link {
   color: #eee;
-  transition: .3s;
+
 }
 
 .navbar--link:hover {
   color: #34b0be;
-  font-size: 1.3rem;
-  transition: font-size .3s;
+
+
+
+
+
 }
 
 .navbar--list {
